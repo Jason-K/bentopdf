@@ -1,3 +1,12 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_OPTIONS = "--max-old-space-size=4096"
+  HUSKY = "0"
+  SIMPLE_MODE = "true"
+
 [[headers]]
   for = "/*"
   [headers.values]
