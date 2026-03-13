@@ -1,0 +1,6 @@
+/en/*   /en/:splat  200
+/de/*   /de/:splat  200
+/es/*   /es/:splat  200
+/fr/*   /fr/:splat  200
+/zh/*   /zh/:splat  200
+/*      /index.html 200
